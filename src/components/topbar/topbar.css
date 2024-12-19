@@ -8,6 +8,88 @@
     top: 0;
 }
 
-.topbBarLeft{
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor:pointer;
+}
+.topBarLeft{
+    flex: 3;
+
+
+}
+.topBarCenter{
     flex:3;
+}
+
+.searchbar{
+    width: 100%;
+    height:30px;
+    background-color: black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    height: 20px !important;
+    margin-left: 10px;
+}
+
+.searchInput{
+    border: none;
+    width: 70%;
+    background-color: black;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+
+.topBarRight{
+    flex:  4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+.topbarLink{
+    margin-right: 10px;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.topbarIcons{
+    display: flex;
+}
+
+.topbarIconItem{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+
+.topBarIconBadge{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color:white;
+    top: 5px;
+    right: -5px;
+    
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.topbarImg{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
 }

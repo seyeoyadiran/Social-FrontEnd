@@ -14,11 +14,11 @@ export default function Topbar(){
                 </div>
                 <div className="topBarCenter">
                     <div className="searchbar">
-                       <img src={Search} alt="" />
+                       <img src={Search} alt="" className="searchIcon"/>
                        <input placeholder="Search for friend, post or video" className="searchInput" />
                     </div>
                 </div>
-                <div className="topBarRight">
+                <div className="topBarRight"> 
                     <div className="topbarLinks">
                         <span className="topbarLink">HomePage</span>
                         <span className="topbarLink">TimeLine</span>
@@ -26,17 +26,17 @@ export default function Topbar(){
                     <div className="topbarIcons">
                         <div className="topbarIconItem">
                             <span className="topBarIconBadge">
-                                <img src={Person} alt="" />
+                                <img src={Person} alt="" className="topbarImg" />
                                 1</span>
                         </div>
                         <div className="topbarIconItem">
                             <span className="topBarIconBadge">
-                                <img src={Chat} alt="" />
+                                <img src={Chat} alt="" className="topbarImg" />
                                 2</span>
                         </div>
                         <div className="topbarIconItem">
                             <span className="topBarIconBadge">
-                                <img src={Noti} alt="" />
+                                <img src={Noti} alt="" className="topbarImg" />
                                 1</span>
                         </div>
                     </div>
